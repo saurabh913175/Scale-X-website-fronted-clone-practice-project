@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+main {
+  display: flex;
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-right: 200px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+}
+
+main .headlogo img {
+  height: 55px;
+}
+
+main .headtext {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  gap: 50px;
+}
+
+main button {
+  font-weight: 400;
+  font-size: 15px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  padding: 14px;
+  border-radius: 8px;
+  background-color: #121212;
+  border: none;
+  color: white;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.heading h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 160px;
+  justify-content: center;
+}
+.smallbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.smallbox button {
+  justify-content: center;
+  font-weight: 400;
+  font-size: 15px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  padding: 15px 25px;
+  border-radius: 100px;
+  background-color: #fc4609;
+  border: none;
+  color: white;
+}
+.smallbox .smallboxg {
+  background-color: #141414;
+}
+
+.allcards {
+  padding-top: 35px;
+  position: relative;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.bigcards {
+  position: relative;
+  height: 350px;
+  width: 300px;
+  background-color: #0d0d0d;
+  border-radius: 30px;
+}
+
+.bigcards .smallcard {
+  height: 200px;
+  width: 300px;
+
+  border-radius: 30px;
+}
+
+.bigcards .smallcard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.bigcards2 {
+  height: 350px;
+  width: 300px;
+  background-color: #0d0d0d;
+  border-radius: 30px;
+}
+
+.bigcards2 .smallcard2 {
+  height: 200px;
+  width: 300px;
+
+  border-radius: 30px;
+}
+
+.bigcards2 .smallcard2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.bigcards3 {
+  height: 350px;
+  width: 300px;
+  background-color: #0d0d0d;
+  border-radius: 30px;
+}
+
+.bigcards3 .smallcard3 {
+  height: 200px;
+  width: 300px;
+
+  border-radius: 30px;
+}
+
+.bigcards3 .smallcard3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.bigcards .littlebox {
+  display: flex;
+  position: relative;
+  height: 30px;
+  width: 60px;
+  background-color: #551d09;
+  border-radius: 30px;
+  color: #de8357;
+  top: 15px;
+  left: 15px;
+}
+.bigcards .littlebox p {
+  position: relative;
+  align-items: center;
+  left: 14px;
+  top: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.bigcards #heading {
+  font-size: 18px;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.bigcards #heading h3{
+  font-weight: 400;
+  font-family:  "Roboto", sans-serif ;
+}
+
+.bigcards #heading span{
+  font-family: "Roboto", sans-serif;
+  color: #646464;
+  font-weight: 500;
+  position: relative;
+  top: 5px;
+  font-size: 13px;
+}
+
+
+
+
+
+.bigcards2 .littlebox {
+  display: flex;
+  position: relative;
+  height: 30px;
+  width: 63px;
+  background-color: #551d09;
+  border-radius: 30px;
+  color: #de8357;
+  top: 15px;
+  left: 15px;
+}
+.bigcards2 .littlebox p {
+  position: relative;
+  align-items: center;
+  left: 14px;
+  top: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.bigcards2 #heading {
+  font-size: 18px;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.bigcards2 #heading h3{
+  font-weight: 400;
+  font-family:  "Roboto", sans-serif ;
+}
+
+.bigcards2 #heading span{
+  font-family: "Roboto", sans-serif;
+  color: #646464;
+  font-weight: 500;
+  position: relative;
+  top: 5px;
+  font-size: 13px;
+}
+
+
+
+.bigcards3 .littlebox {
+  display: flex;
+  position: relative;
+  height: 30px;
+  width: 96px;
+  background-color: #551d09;
+  border-radius: 30px;
+  color: #de8357;
+  top: 15px;
+  left: 15px;
+}
+.bigcards3 .littlebox p {
+  position: relative;
+  align-items: center;
+  left: 14px;
+  top: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.bigcards3 #heading {
+  font-size: 18px;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.bigcards3 #heading h3{
+  font-weight: 400;
+  font-family:  "Roboto", sans-serif ;
+}
+
+.bigcards3 #heading span{
+  font-family: "Roboto", sans-serif;
+  color: #646464;
+  font-weight: 500;
+  position: relative;
+  top: 5px;
+  font-size: 13px;
+}
